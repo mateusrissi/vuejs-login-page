@@ -1,7 +1,7 @@
 # Webapp Frontend Example
 <img alt="Vue.js Logo" src="./img/vue-logo.png" width="200" height="200" />
 
-This is nothing but an extra-simple frontend done with [Vue.js](https://vuejs.org/). It is used for testing the '/login/' endpoint from my [deno.js test project](https://github.com/mtrissi/denojs-app-CRUD-for-users/blob/master/readme.md).
+This is nothing but an extra-simple frontend done with [Vue.js](https://vuejs.org/). It is used for testing the '/login/' endpoint from my [deno.js test project](https://github.com/mtrissi/denojs-rest-api).
 
 ## Project setup
 ```
