@@ -55,23 +55,23 @@ export default {
     return {
       form: {
         email: "",
-        password: "",
+        password: ""
       },
-      errors: {},
+      errors: {}
     };
   },
   methods: {
     submit() {
       axios
         .post("http://localhost:4000/login", this.form)
-        .then((res) => {
+        .then(res => {
           this.$cookies.set("token", res.data);
           window.location = "/";
         })
-        .catch((e) => {
+        .catch(e => {
           this.errors = e.response.body;
         });
-    },
-  },
+    }
+  }
 };
 </script>

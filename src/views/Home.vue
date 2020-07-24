@@ -1,12 +1,12 @@
 <template>
   <div class="text-center">
-    <h1 class="text-3x1">Welcome, {{user.name}}</h1>
+    <h1 class="text-3x1">Welcome, {{ user.name }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
+  name: "Home"
 };
 </script>
 
@@ -15,7 +15,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      user: {},
+      user: {}
     };
   },
   created() {
@@ -24,12 +24,12 @@ export default {
     axios
       .get("http://localhost:4000/me", {
         headers: {
-          Authorization: "Bearer " + token,
-        },
+          Authorization: "Bearer " + token
+        }
       })
-      .then((res) => {
+      .then(res => {
         this.user = res.data;
       });
-  },
+  }
 };
 </script>
