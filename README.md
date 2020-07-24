@@ -24,5 +24,10 @@ npm run lint
 ```
 
 # Screenshots
+Login Page:
+
 ![Login Page](./img/login_page.jpg "Login Page")
+
+After logging in:
+
 ![Home Page](./img/home_page.jpg "Home Page")
